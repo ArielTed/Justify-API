@@ -45,8 +45,8 @@ const response = await axios({
 	url: '/api/justify',
 	data: 'Justify this text.',
 	headers: {
-		'Content-Type': 'text/plain',
-		'Authorization': 'Bearer ${token}'
+    'Content-Type': 'text/plain',
+    'Authorization': 'Bearer ${token}'
 	},
 });
 ```

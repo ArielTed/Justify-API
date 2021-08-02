@@ -57,6 +57,10 @@ This API is developped using NodeJS, TypeScript, Express.js and PostgreSQL.
 <br/>
 For code styling and readability, I am using ESLint and Prettier.
 
+## Deployment
+
+The API is deployed on Heroku : https://justify-api-ttt.herokuapp.com/
+
 ## Author
 
 **Ariel Tedgui** : https://github.com/ArielTed

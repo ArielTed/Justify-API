@@ -4,10 +4,9 @@
   "description": "Simple NodeJS API to justify a text",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc --project ./",
     "dev": "nodemon src/index.ts",
     "prepare": "husky install",
-    "start": "ts-node src/index.ts",
+    "start": "node node_modules/.bin/ts-node",
     "test": "jest --config './coverage.jest.js'"
   },
   "repository": {

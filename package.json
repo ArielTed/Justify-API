@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.ts",
     "prepare": "husky install",
-    "start": "node node_modules/.bin/ts-node",
+    "start": "node node_modules/.bin/ts-node src/index.ts",
     "test": "jest --config './coverage.jest.js'"
   },
   "repository": {
